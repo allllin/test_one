@@ -34,5 +34,5 @@ class DingRobot:
 
 
 if __name__ == '__main__':
-    # DingRobot().send_report()
-    print(DingRobot().get_allure())
+    DingRobot().send_report()
+    # print(DingRobot().get_allure())
