@@ -23,7 +23,7 @@ class DingRobot:
                 "msgtype": "link",
                 "link": {
                     "text": "账号lzw,密码lzw000216",
-                    "title": "007" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                    "title": "小林同学" + datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
                     "picUrl": "",
                     "messageUrl": "http://lzw:lzw000216@39.105.54.35:9000/job/yuqing/allure/"
                 }
