@@ -28,8 +28,8 @@ class TestYuQing:
         a = self.yuqing.create()
         id = a.json().get("id")
         r = self.yuqing.delete(id)
-        assert r.status_code == 400
+        assert r.status_code == 200
 
     def test_create(self):
         r = self.yuqing.create()
-        assert r.status_code == 400
+        assert r.status_code == 200
